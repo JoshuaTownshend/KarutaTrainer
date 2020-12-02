@@ -28,7 +28,7 @@ class CurrentCard extends React.Component {
             )
         } else {
             var displayTypeFront = this.props.currentCard[0].frontKana;
-            var kimarijiCount = this.props.currentCard[0].kimarijiBack
+            var kimarijiCount = this.props.currentCard[0].kimarijiFront
             return (
                 <div className="currentCardOuter">
                     <div className="currentCardInner">
