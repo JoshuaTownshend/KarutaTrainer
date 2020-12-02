@@ -1,38 +1,134 @@
-.App {
-  text-align: center;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #eee;
+    background-image: url("seiryu-01.jpg");
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrapper {
+    background-color: #eee;
+    height: 100vh;
+    width: 100%;
+    background-image: url("seiryu-01.jpg");
+    margin-left:auto;
+    margin-right:auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.head { 
+    background-color:rgba(255, 255, 255, 0.671);
+    border-radius: 25px;
+    width: 50%;
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+ }
+
+ #text {
+     width: 40px;
+     text-align: center;
+ }
+
+ input {
+     margin-left: 5px;
+ }
+
+ .audioDiv {
+    margin: 10px;
+    display: table;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+ }
+
+ .cardContainer {
+    margin: auto;
+    margin-bottom: 0;
+    padding: auto;
+width: 670px;
+height: auto;
+display: flex;
+flex-wrap: wrap;
+ }
+
+ 
+.cardOuter {
+    background: #363;
+    margin: 0 auto;
+    /*width: calc(20% - 4px);*/
+    width: 105px;
+    height: 125px;
+    vertical-align: middle;
+    writing-mode: vertical-rl;
+text-orientation: upright;
+margin-bottom: 5px;
+font-family: NSimSun;
+ }
+
+ .cardInner{
+    position: relative;
+    width: 93.71%;
+    height: 95.5%;
+    top: 2.25%;
+    right: 2.75%;
+    margin: 0 auto;
+    padding: 4.69798658%;
+    background: #fff;
+    font-size: 0;
+ }
+
+ .cardOuter p {
+     font-size: 1.3rem;
+ }
+
+ .currentCardOuter {
+    background: #363;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 105px;
+    height: 125px;
+    vertical-align: middle;
+    writing-mode: vertical-rl;
+text-orientation: upright;
+font-family: NSimSun;
+ }
+
+ .currentCardInner {
+    position: relative;
+    width: 93.71%;
+    height: 95.5%;
+    top: 2.25%;
+    right: 2.75%;
+    margin: 0 auto;
+    padding: 4.69798658%;
+    background: #fff;
+ }
+
+ .cardOuter:hover,
+ .cardInner:hover{
+    transform: scale(.97);
+    transition: transform .1s; 
+    cursor: pointer
+ }
+
+ .currentCardInner p {
+    font-size: 1.10rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.inline {
+    display: inline;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ footer {
+     text-align: center;
+     font-size: 0.5rem;
+ }
