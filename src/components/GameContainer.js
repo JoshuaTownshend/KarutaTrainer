@@ -227,7 +227,6 @@ class GameContainer extends React.Component {
           <li>Prevent repetition of same currentCard</li>
           <li>Add audio for every card -{`>`} play audio on new card</li>
           <li>Poems 'page' (same page, react router)</li>
-          <li>Update CSS (visuals & responsiveness)</li>
         </ul>
         <footer>
           <p>made by ouch || last updated {document. lastModified}</p>

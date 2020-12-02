@@ -132,3 +132,273 @@ font-family: NSimSun;
      text-align: center;
      font-size: 0.5rem;
  }
+
+ @media only screen and (min-width: 405px) and (max-width: 680px) {
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #eee;
+    background-image: url("seiryu-01.jpg");
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    background-color: #eee;
+    height: 100vh;
+    width: 100%;
+    background-image: url("seiryu-01.jpg");
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.head { 
+    background-color:rgba(255, 255, 255, 0.671);
+    border-radius: 25px;
+    width: 100%;
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+ }
+
+ #text {
+     width: 60px;
+     height: 40px;
+     text-align: center;
+ }
+
+ input {
+     margin-left: 5px;
+ }
+
+ .audioDiv {
+    margin: 10px;
+    display: table;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+ }
+
+ .cardContainer {
+    margin: 0 auto;
+width: 100%;
+height: auto;
+display: flex;
+flex-wrap: wrap;
+ }
+
+ 
+.cardOuter {
+    background: #363;
+    margin: 0 auto;
+    /*width: calc(20% - 4px);*/
+    width: calc(25% - 4px);
+    height: 125px;
+    vertical-align: middle;
+    writing-mode: vertical-rl;
+text-orientation: upright;
+font-family: NSimSun;
+ }
+
+ .cardInner{
+    position: relative;
+    width: 93.71%;
+    height: 95.5%;
+    top: 2.25%;
+    right: 2.75%;
+    margin: 0 auto;
+    padding: 4.69798658%;
+    background: #fff;
+    font-size: 0;
+ }
+
+ .cardOuter p {
+     font-size: 1.3rem;
+ }
+
+ .currentCardOuter {
+    background: #363;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 105px;
+    height: 125px;
+    vertical-align: middle;
+    writing-mode: vertical-rl;
+text-orientation: upright;
+font-family: NSimSun;
+ }
+
+ .currentCardInner {
+    position: relative;
+    width: 93.71%;
+    height: 95.5%;
+    top: 2.25%;
+    right: 2.75%;
+    margin: 0 auto;
+    padding: 4.69798658%;
+    background: #fff;
+ }
+
+ .cardOuter:hover,
+ .cardInner:hover{
+    transform: scale(.97);
+    transition: transform .1s; 
+    cursor: pointer
+ }
+
+ .currentCardInner p {
+    font-size: 1.10rem;
+}
+
+.inline {
+    display: inline;
+}
+
+ footer {
+     text-align: center;
+     font-size: 0.5rem;
+ }
+
+ button {
+     width: 60px;
+     height: 40px;
+ }
+    }
+
+    @media only screen and (min-width: 300px) and (max-width: 404px) {
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background-color: #eee;
+            background-image: url("seiryu-01.jpg");
+            line-height: 1.4;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+        
+        .wrapper {
+            background-color: #eee;
+            height: 100vh;
+            width: 100%;
+            background-image: url("seiryu-01.jpg");
+            margin-left:auto;
+            margin-right:auto;
+        }
+        
+        .head { 
+            background-color:rgba(255, 255, 255, 0.671);
+            border-radius: 25px;
+            width: 100%;
+            margin-top: 10px;
+            margin-left:auto;
+            margin-right:auto;
+            text-align:center;
+         }
+        
+         #text {
+             width: 60px;
+             height: 40px;
+             text-align: center;
+         }
+        
+         input {
+             margin-left: 5px;
+         }
+        
+         .audioDiv {
+            margin: 10px;
+            display: table;
+            margin-left:auto;
+            margin-right:auto;
+            text-align:center;
+         }
+        
+         .cardContainer {
+            margin: 0 auto;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+         }
+        
+         
+        .cardOuter {
+            background: #363;
+            margin: 0 auto;
+            /*width: calc(20% - 4px);*/
+            width: calc(25% - 4px);
+            height: 125px;
+            vertical-align: middle;
+            writing-mode: vertical-rl;
+        text-orientation: upright;
+        font-family: NSimSun;
+         }
+        
+         .cardInner{
+            position: relative;
+            width: 93.71%;
+            height: 95.5%;
+            top: 2.25%;
+            right: 2.75%;
+            margin: 0 auto;
+            padding: 4.69798658%;
+            background: #fff;
+            font-size: 0;
+         }
+        
+         .cardOuter p {
+             font-size: 1.0rem;
+         }
+        
+         .currentCardOuter {
+            background: #363;
+            margin: 0 auto;
+            margin-top: 10px;
+            width: 105px;
+            height: 125px;
+            vertical-align: middle;
+            writing-mode: vertical-rl;
+        text-orientation: upright;
+        font-family: NSimSun;
+         }
+        
+         .currentCardInner {
+            position: relative;
+            width: 93.71%;
+            height: 95.5%;
+            top: 2.25%;
+            right: 2.75%;
+            margin: 0 auto;
+            padding: 4.69798658%;
+            background: #fff;
+         }
+        
+         .cardOuter:hover,
+         .cardInner:hover{
+            transform: scale(.97);
+            transition: transform .1s; 
+            cursor: pointer
+         }
+        
+         .currentCardInner p {
+            font-size: 1.10rem;
+        }
+        
+        .inline {
+            display: inline;
+        }
+        
+         footer {
+             text-align: center;
+             font-size: 0.5rem;
+         }
+        
+         button {
+             width: 60px;
+             height: 40px;
+         }
+            }

@@ -9,7 +9,7 @@ class Header extends React.Component {
                 <div>
                     <form>[     <input type="radio" value="kanji" name="select" onChange={this.props.onValueChange} /> Kanji |
                                 <input type="radio" value="hiragana" name="select" onChange={this.props.onValueChange} /> Hiragana |
-                                <input type="radio" value="kimariji" name="select" onChange={this.props.onValueChange} /> Kimariji ]
+                                <input type="radio" value="kimariji" name="select" onChange={this.props.onValueChange} /> Kimariji ]<br />
                                 <span>[ Number of Cards
                                     <input type="text"
                                 id="text"
