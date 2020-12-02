@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/KarutaTrainer/static/css/main.d5716a6a.chunk.css",
-    "main.js": "/KarutaTrainer/static/js/main.9a8c55a6.chunk.js",
-    "main.js.map": "/KarutaTrainer/static/js/main.9a8c55a6.chunk.js.map",
+    "main.css": "/KarutaTrainer/static/css/main.f67eef27.chunk.css",
+    "main.js": "/KarutaTrainer/static/js/main.6859854c.chunk.js",
+    "main.js.map": "/KarutaTrainer/static/js/main.6859854c.chunk.js.map",
     "runtime-main.js": "/KarutaTrainer/static/js/runtime-main.4f6216b3.js",
     "runtime-main.js.map": "/KarutaTrainer/static/js/runtime-main.4f6216b3.js.map",
     "static/js/2.ec492901.chunk.js": "/KarutaTrainer/static/js/2.ec492901.chunk.js",
     "static/js/2.ec492901.chunk.js.map": "/KarutaTrainer/static/js/2.ec492901.chunk.js.map",
     "index.html": "/KarutaTrainer/index.html",
-    "static/css/main.d5716a6a.chunk.css.map": "/KarutaTrainer/static/css/main.d5716a6a.chunk.css.map",
+    "static/css/main.f67eef27.chunk.css.map": "/KarutaTrainer/static/css/main.f67eef27.chunk.css.map",
     "static/js/2.ec492901.chunk.js.LICENSE.txt": "/KarutaTrainer/static/js/2.ec492901.chunk.js.LICENSE.txt",
     "static/media/App.css": "/KarutaTrainer/static/media/seiryu-01.2fdb62b1.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4f6216b3.js",
     "static/js/2.ec492901.chunk.js",
-    "static/css/main.d5716a6a.chunk.css",
-    "static/js/main.9a8c55a6.chunk.js"
+    "static/css/main.f67eef27.chunk.css",
+    "static/js/main.6859854c.chunk.js"
   ]
 }
