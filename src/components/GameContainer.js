@@ -4,7 +4,6 @@ import Header from "./Header"
 import CurrentCard from "./CurrentCard"
 import { cardData } from "../Cards";
 
-
 class GameContainer extends React.Component {
   constructor(props) {
     super(props);
@@ -196,7 +195,7 @@ class GameContainer extends React.Component {
   render() {
 
     return (
-      <div className="wrapper">
+      <>
         <Header score={this.state.score}
           resetScore={this.resetGame}
           newGame={this.newGame}
@@ -226,12 +225,11 @@ class GameContainer extends React.Component {
         <ul>
           <li>Prevent repetition of same currentCard</li>
           <li>Add audio for every card -{`>`} play audio on new card</li>
-          <li>Poems 'page' (same page, react router)</li>
         </ul>
         <footer>
           <p>made by ouch || last updated {document. lastModified}</p>
         </footer>
-      </div>
+      </>
 
     )
   }
