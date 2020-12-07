@@ -933,7 +933,7 @@ export const cardData = [
     "imageBack": "",
     "audio": "Cardaudio2",
     "author": "周防内侍",
-    "theme": "",
+    "theme": "春",
     "kimarijiFront": 3,
     "kimarijiBack": 2
   },
@@ -1338,7 +1338,7 @@ export const cardData = [
     "imagefront": "",
     "imageBack": "",
     "audio": "Cardaudio2",
-    "author": "",
+    "author": "花誘うふり",
     "theme": "雑",
     "kimarijiFront": 3,
     "kimarijiBack": 2

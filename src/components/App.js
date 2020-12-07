@@ -7,9 +7,12 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 function App() {
     return (
-    <Router>
-        <div className="wrapper">
-        <ul className="links">
+        <Router>
+            <div className="wrapper">
+                <ul className="links">
+                    <Link to="/KarutaTrainer/">
+                        <li>Home</li>
+                    </Link>
                     <Link to="/KarutaTrainer/game">
                         <li>Game</li>
                     </Link>
@@ -17,16 +20,16 @@ function App() {
                         <li>Poems</li>
                     </Link>
                 </ul>
-            <div className="homepage">
-                <Switch>
-                    <Route path="/KarutaTrainer/" exact component={Home} />
-                    <Route path="/KarutaTrainer/game" component={GameContainer} />
-                    <Route path="/KarutaTrainer/poems" exact component={Poems} />
-                    {/*<Route path="/poems/:id" component={PoemDetail} />*/}
-                </Switch>
+                <div className="homepage">
+                    <Switch>
+                        <Route path="/KarutaTrainer/" exact component={Home} />
+                        <Route path="/KarutaTrainer/game" component={GameContainer} />
+                        <Route path="/KarutaTrainer/poems" exact component={Poems} />
+                        {/*<Route path="/poems/:id" component={PoemDetail} />*/}
+                    </Switch>
+                </div>
             </div>
-        </div> 
-    </Router>
+        </Router>
 
     )
 }

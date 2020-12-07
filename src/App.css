@@ -285,6 +285,11 @@ body {
     text-align:center;
 }
 
+.homeContainer p {
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
 .homeContainer ul {
     list-style: none;
     margin: 0;
