@@ -12,6 +12,7 @@ class Poems extends React.Component {
 
 
     render() {
+
         const list = cardData.map((cards, index) => {
             return (
                 <tr key={index}>
@@ -30,7 +31,7 @@ class Poems extends React.Component {
             < >
                 <div id="poemsContainer" className="poemsContainer">
                     <header>
-                        <h1>Poems (WIP)</h1>
+                        <h1>Poems</h1>
                     </header>
                     <div id="poemsTableContainer" className="poemsTableContainer">
                         <table>
