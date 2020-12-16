@@ -221,11 +221,11 @@ class GameContainer extends React.Component {
           displayType={this.state.kanjiKanaSelect}
           number={this.state.numberOfCards}
           handleComp={this.handleComparison} />
-        <p>To do:</p>
+        {/*<p>To do:</p>
         <ul>
           <li>Prevent repetition of same currentCard</li>
           <li>Add audio for every card -{`>`} play audio on new card</li>
-        </ul>
+        </ul> */}
       </>
 
     )

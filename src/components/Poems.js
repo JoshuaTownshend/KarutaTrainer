@@ -1,5 +1,6 @@
 import React from "react"
 import { cardData } from "../Cards";
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 class Poems extends React.Component {
     constructor(props) {
@@ -16,7 +17,7 @@ class Poems extends React.Component {
         const list = cardData.map((cards, index) => {
             return (
                 <tr key={index}>
-                    <td>{cards.id}</td>
+                    <td><Link to={`/KarutaTrainer/poems/${cards.id}`} cards={cardData}>{cards.id}</Link></td>
                     <td>{cards.front}</td>
                     <td>{cards.kimarijiFront}</td>
                     <td>{cards.back}</td>
