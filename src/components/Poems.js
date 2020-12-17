@@ -1,6 +1,6 @@
 import React from "react"
 import { cardData } from "../Cards";
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as HashRouter, Router, Switch, Route, Link } from 'react-router-dom';
 
 class Poems extends React.Component {
     constructor(props) {

@@ -4,11 +4,11 @@ import Poems from './Poems';
 import Home from './Home';
 import PoemDetail from './PoemDetail';
 import "../App.css"
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as HashRouter, Router, Switch, Route, Link } from 'react-router-dom';
 
 function App() {
     return (
-        <Router>
+        <HashRouter basename='/'>
             <div className="wrapper">
                 <ul className="links">
                     <Link to="/KarutaTrainer/">
@@ -30,7 +30,7 @@ function App() {
                     </Switch>
                 </div>
             </div>
-        </Router>
+        </HashRouter>
 
     )
 }
