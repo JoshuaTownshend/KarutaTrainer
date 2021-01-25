@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/KarutaTrainer/static/css/main.fecf8671.chunk.css",
-    "main.js": "/KarutaTrainer/static/js/main.49ab2303.chunk.js",
-    "main.js.map": "/KarutaTrainer/static/js/main.49ab2303.chunk.js.map",
+    "main.js": "/KarutaTrainer/static/js/main.0a617668.chunk.js",
+    "main.js.map": "/KarutaTrainer/static/js/main.0a617668.chunk.js.map",
     "runtime-main.js": "/KarutaTrainer/static/js/runtime-main.0b3f69cc.js",
     "runtime-main.js.map": "/KarutaTrainer/static/js/runtime-main.0b3f69cc.js.map",
     "static/js/2.5e302c31.chunk.js": "/KarutaTrainer/static/js/2.5e302c31.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.0b3f69cc.js",
     "static/js/2.5e302c31.chunk.js",
     "static/css/main.fecf8671.chunk.css",
-    "static/js/main.49ab2303.chunk.js"
+    "static/js/main.0a617668.chunk.js"
   ]
 }
