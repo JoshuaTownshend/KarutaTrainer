@@ -278,7 +278,7 @@ body {
 .homeContainer {
     background-color:rgba(255, 255, 255, 0.671);
     border-radius: 25px;
-    width: 50%;
+    width: 75%;
     margin-top: 10px;
     margin-left:auto;
     margin-right:auto;
@@ -421,6 +421,40 @@ font-family: NSimSun;
     display: inline;
 }
 
+.poemsContainer {
+    background-color:rgba(255, 255, 255, 0.671);
+    border-radius: 25px;
+    width: 100%;
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.poemsTableContainer {
+
+}
+
+table {
+    width: 1px;
+}
+
+.poemsTableContainer table {
+    margin: auto;
+    margin-top: 10px;
+    padding: auto;
+    border-collapse: collapse;
+}
+td, th {
+    padding: 8px;
+  }
+
+  tr {width:100%;}
+
+.poemsTableContainer table tr:nth-child(odd){background-color: #f2f2f2;}
+
  footer {
      text-align: center;
      font-size: 0.5rem;
@@ -455,6 +489,7 @@ font-family: NSimSun;
 
         .links {
             list-style: none;
+            width: 100%;
             margin: 0;
             padding: 0;
             text-align: center;
@@ -484,7 +519,7 @@ font-family: NSimSun;
         .homeContainer {
             background-color:rgba(255, 255, 255, 0.671);
             border-radius: 25px;
-            width: 50%;
+            width: 100%;
             margin-top: 10px;
             margin-left:auto;
             margin-right:auto;
@@ -621,6 +656,40 @@ font-family: NSimSun;
         .inline {
             display: inline;
         }
+
+        .poemsContainer {
+            background-color:rgba(255, 255, 255, 0.671);
+            border-radius: 25px;
+            width: 100%;
+            margin-top: 10px;
+            margin-left:auto;
+            margin-right:auto;
+            text-align:center;
+            margin-bottom: 10px;
+            font-size: 0.65rem;
+        }
+        
+        .poemsTableContainer {
+        
+        }
+        
+        table {
+            width: 1px;
+        }
+        
+        .poemsTableContainer table {
+            margin: auto;
+            margin-top: 10px;
+            padding: auto;
+            border-collapse: collapse;
+        }
+        td, th {
+            padding: 8px;
+          }
+        
+          tr {width:100%;}
+        
+        .poemsTableContainer table tr:nth-child(odd){background-color: #f2f2f2;}
         
          footer {
              text-align: center;
