@@ -17,7 +17,7 @@ class Poems extends React.Component {
         const list = cardData.map((cards, index) => {
             return (
                 <tr key={index}>
-                    <td><Link to={`/KarutaTrainer/poems/${cards.id}`} cards={cardData}>{cards.id}</Link></td>
+                    <td><Link to={`/poems/${cards.id}`} cards={cardData}>{cards.id}</Link></td>
                     <td>{cards.front}</td>
                     <td>{cards.kimarijiFront}</td>
                     <td>{cards.back}</td>

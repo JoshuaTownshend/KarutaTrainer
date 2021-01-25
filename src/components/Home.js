@@ -12,10 +12,10 @@ class Home extends React.Component {
                     <h1>Karuta Trainer</h1>
                     <img alt="Karuta card 15" src={yomi015s} />
                     <ul className="linksHome">
-                        <Link to="/KarutaTrainer/game">
+                        <Link to="/game">
                             <li>Game</li>
                         </Link>
-                        <Link to="/KarutaTrainer/poems">
+                        <Link to="/poems">
                             <li>Poems</li>
                         </Link>
                     </ul>

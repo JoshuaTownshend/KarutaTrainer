@@ -8,25 +8,25 @@ import { BrowserRouter as HashRouter, Router, Switch, Route, Link } from 'react-
 
 function App() {
     return (
-        <HashRouter basename='/'>
+        <HashRouter basename='/KarutaTrainer/'>
             <div className="wrapper">
                 <ul className="links">
-                    <Link to="/KarutaTrainer/">
+                    <Link to="/">
                         <li>Home</li>
                     </Link>
-                    <Link to="/KarutaTrainer/game">
+                    <Link to="/game">
                         <li>Game</li>
                     </Link>
-                    <Link to="/KarutaTrainer/poems">
+                    <Link to="/poems">
                         <li>Poems</li>
                     </Link>
                 </ul>
                 <div className="homepage">
                     <Switch>
-                        <Route path="/KarutaTrainer/" exact component={Home} />
-                        <Route path="/KarutaTrainer/game" component={GameContainer} />
-                        <Route path="/KarutaTrainer/poems" exact component={Poems} />
-                        {<Route path="/KarutaTrainer/poems/:id" component={PoemDetail} />}
+                        <Route path="/" exact component={Home} />
+                        <Route path="/game" component={GameContainer} />
+                        <Route path="/poems" exact component={Poems} />
+                        {<Route path="/poems/:id" component={PoemDetail} />}
                     </Switch>
                 </div>
             </div>
