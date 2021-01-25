@@ -30,7 +30,7 @@ class PoemDetail extends React.Component {
         else if (poem.id < 10) {
             poemurlid = "00" + poem.id + "s.jpg";
         }
-        else if (poem.id > 10 && poem.id < 99) {
+        else if (poem.id >= 10 && poem.id < 99) {
             poemurlid = "0" + poem.id + "s.jpg";
         }
         else if (poem.id === 100) {
@@ -39,11 +39,25 @@ class PoemDetail extends React.Component {
 
         var imgurl = "https://polygondrill.com/wp-content/uploads/2015/05/yomi" + poemurlid;
 
+        var poemleft
+        if (poem.id === 1) {
+            poemleft = 1
+        } else {
+            poemleft = poem.id - 1
+        }
+
+        var poemright
+        if (poem.id === 100) {
+            poemright = 100
+        } else {
+            poemright = poem.id + 1
+        }
+
         return (
             < >
                 <div id="poemsContainer" className="poemsContainer">
                     <header><h1>
-                        {<Link to={`/poems/${poem.id - 1}`} cards={cardData}><FontAwesomeIcon icon={faArrowLeft} /></Link>}{poem.id}{<Link to={`/poems/${poem.id + 1}`} cards={cardData}><FontAwesomeIcon icon={faArrowRight} /></Link>}
+                        {<Link to={`/poems/${poemleft}`} cards={cardData}><FontAwesomeIcon icon={faArrowLeft} /></Link>}{poem.id}{<Link to={`/poems/${poemright}`} cards={cardData}><FontAwesomeIcon icon={faArrowRight} /></Link>}
                     </h1>
                     </header>
                     <p>詠み人: {poem.author}</p>
