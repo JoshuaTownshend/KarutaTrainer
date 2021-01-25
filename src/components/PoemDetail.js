@@ -1,6 +1,8 @@
 import React from "react"
 import { cardData } from "../Cards";
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class PoemDetail extends React.Component {
 
@@ -8,6 +10,7 @@ class PoemDetail extends React.Component {
         const mystyle = {
             color: "red"
         };
+
         var idBefore = this.props.match.params.id;
         var id = idBefore - 1;
 
@@ -39,8 +42,9 @@ class PoemDetail extends React.Component {
         return (
             < >
                 <div id="poemsContainer" className="poemsContainer">
-                    <header>
-                        {/*<Link to={`/KarutaTrainer/poems/${poem.id - 1}`} cards={cardData}>-</Link>*/}<h1>{poem.id}</h1>{/*<Link to={`/KarutaTrainer/poems/${poem.id + 1}`} cards={cardData}>+</Link>*/}
+                    <header><h1>
+                        {<Link to={`/poems/${poem.id - 1}`} cards={cardData}><FontAwesomeIcon icon={faArrowLeft} /></Link>}{poem.id}{<Link to={`/poems/${poem.id + 1}`} cards={cardData}><FontAwesomeIcon icon={faArrowRight} /></Link>}
+                    </h1>
                     </header>
                     <p>詠み人: {poem.author}</p>
                     <p>歌の種類: {poem.theme}</p>

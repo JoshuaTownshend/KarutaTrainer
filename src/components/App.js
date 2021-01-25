@@ -3,12 +3,15 @@ import GameContainer from './GameContainer';
 import Poems from './Poems';
 import Home from './Home';
 import PoemDetail from './PoemDetail';
-import "../App.css"
+import "../App.css";
 import { BrowserRouter as HashRouter, Router, Switch, Route, Link } from 'react-router-dom';
+import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function App() {
     return (
-        <HashRouter basename='/KarutaTrainer/'>
+        <HashRouter basename='/KarutaTrainer/'
+            hashType='slash'>
             <div className="wrapper">
                 <ul className="links">
                     <Link to="/">
