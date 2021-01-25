@@ -9,7 +9,7 @@ import { BrowserRouter as HashRouter, Router, Switch, Route, Link } from 'react-
 
 function App() {
     return (
-        <HashRouter basename='/KarutaTrainer/'
+        <HashRouter basename='/KarutaTrainer'
             hashType='slash'>
             <div className="wrapper">
                 <ul className="links">
